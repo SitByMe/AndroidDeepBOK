@@ -5,6 +5,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.example.zohar.androiddeepbok.R;
+import com.example.zohar.androiddeepbok.activities.activitylifecycle.FragmentLifecycleActivity;
 import com.example.zohar.androiddeepbok.activities.activitylifecycle.LifeCycleAActivity;
 import com.example.zohar.androiddeepbok.adapter.MainRvAdapter;
 import com.example.zohar.androiddeepbok.menu.MainMenu;
@@ -50,8 +51,11 @@ public class MainActivity extends BaseActivity<MainContract.IMainPresenter> impl
                 switch (MainMenu.valueOfDesc(mainAdapter.getItem(position))) {
                     case NON:
                         break;
-                    case ACTIVITY_LIFE_CYCLE:
+                    case ACTIVITY_LIFECYCLE:
                         StartActivityUtils.startActivity(MainActivity.this, LifeCycleAActivity.class);
+                        break;
+                    case FRAGMENT_LIFECYCLE:
+                        StartActivityUtils.startActivity(MainActivity.this, FragmentLifecycleActivity.class);
                         break;
                 }
             }

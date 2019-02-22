@@ -3,7 +3,7 @@ package com.example.zohar.androiddeepbok.menu;
 import android.view.View;
 
 public enum MainMenu {
-    NON(View.NO_ID, "错误"), ACTIVITY_LIFE_CYCLE(0, "Activity生命周期");
+    NON(View.NO_ID, "错误"), ACTIVITY_LIFECYCLE(0, "Activity生命周期"), FRAGMENT_LIFECYCLE(0, "Fragment生命周期");
 
     public int index;
     public String desc;
