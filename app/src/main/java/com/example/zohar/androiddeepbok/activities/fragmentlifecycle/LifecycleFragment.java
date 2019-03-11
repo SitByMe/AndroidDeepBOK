@@ -1,4 +1,4 @@
-package com.example.zohar.androiddeepbok.activities.activitylifecycle;
+package com.example.zohar.androiddeepbok.activities.fragmentlifecycle;
 
 import android.content.Context;
 import android.os.Bundle;

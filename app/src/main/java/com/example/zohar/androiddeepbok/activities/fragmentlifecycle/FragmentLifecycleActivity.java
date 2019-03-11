@@ -1,25 +1,18 @@
-package com.example.zohar.androiddeepbok.activities.activitylifecycle;
+package com.example.zohar.androiddeepbok.activities.fragmentlifecycle;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.FrameLayout;
 
 import com.example.zohar.androiddeepbok.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class FragmentLifecycleActivity extends AppCompatActivity {
-
-    @BindView(R.id.fl_first)
-    FrameLayout flFirst;
-    @BindView(R.id.fl_second)
-    FrameLayout flSecond;
 
     private LifecycleFragment first1Fragment;
     private LifecycleFragment first2Fragment;

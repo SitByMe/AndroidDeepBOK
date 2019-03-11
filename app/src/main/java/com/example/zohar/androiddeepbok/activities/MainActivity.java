@@ -5,8 +5,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.example.zohar.androiddeepbok.R;
-import com.example.zohar.androiddeepbok.activities.activitylifecycle.FragmentLifecycleActivity;
+import com.example.zohar.androiddeepbok.activities.fragmentlifecycle.FragmentLifecycleActivity;
 import com.example.zohar.androiddeepbok.activities.activitylifecycle.LifeCycleAActivity;
+import com.example.zohar.androiddeepbok.activities.motionevent.TestMotionEventActivity;
 import com.example.zohar.androiddeepbok.adapter.MainRvAdapter;
 import com.example.zohar.androiddeepbok.menu.MainMenu;
 import com.example.zohar.androiddeepbok.mvp.constract.MainContract;
@@ -56,6 +57,9 @@ public class MainActivity extends BaseActivity<MainContract.IMainPresenter> impl
                         break;
                     case FRAGMENT_LIFECYCLE:
                         StartActivityUtils.startActivity(MainActivity.this, FragmentLifecycleActivity.class);
+                        break;
+                    case MOTION_EVENT:
+                        StartActivityUtils.startActivity(MainActivity.this, TestMotionEventActivity.class);
                         break;
                 }
             }

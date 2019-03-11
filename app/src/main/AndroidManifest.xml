@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activities.activitylifecycle.LifeCycleAActivity" />
         <activity android:name=".activities.activitylifecycle.LifeCycleBActivity" />
-        <activity android:name=".activities.activitylifecycle.FragmentLifecycleActivity"></activity>
+        <activity android:name=".activities.fragmentlifecycle.FragmentLifecycleActivity" />
+        <activity android:name=".activities.motionevent.TestMotionEventActivity"></activity>
     </application>
 
 </manifest>
