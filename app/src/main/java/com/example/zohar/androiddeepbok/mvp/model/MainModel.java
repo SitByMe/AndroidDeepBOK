@@ -11,7 +11,7 @@ import java.util.List;
 public class MainModel extends BaseModel {
     public void initMainData(OnRequestCallBack<MainDataResult> callBack) {
         List<String> dataList = new ArrayList<>();
-        for (MainMenu mainMenu : MainMenu.values()) {
+        for (MainMenu mainMenu : MainMenu.values()) {   
             if (mainMenu != MainMenu.NON) dataList.add(mainMenu.desc);
         }
         ResultModel<MainDataResult> result = new ResultModel<>();

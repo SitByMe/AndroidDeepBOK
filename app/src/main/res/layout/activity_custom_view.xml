@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.customview.CustomViewActivity">
+
+    <com.example.zohar.androiddeepbok.activities.customview.widget.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        app:mText="Custom Text"
+        app:mTextColor="#FFFF00"
+        app:mTextSize="20sp" />
+
+    <com.example.zohar.androiddeepbok.activities.customview.widget.MyTextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="#0000FF"
+        app:mText="MyTextView-1"
+        app:mTextColor="#FFFF00"
+        app:mTextSize="20sp" />
+
+    <com.example.zohar.androiddeepbok.activities.customview.widget.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        app:mText="MyTextView-2（wrap_content）"
+        app:mTextColor="#FFFF00"
+        app:mTextSize="20sp" />
+
+    <com.example.zohar.androiddeepbok.activities.customview.widget.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000FF"
+        app:mText="MyTextView-3（match_parent）"
+        app:mTextColor="#FFFF00"
+        app:mTextSize="20sp" />
+</LinearLayout>
