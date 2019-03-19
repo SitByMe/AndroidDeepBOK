@@ -8,6 +8,7 @@ import com.example.zohar.androiddeepbok.R;
 import com.example.zohar.androiddeepbok.activities.customview.CustomViewActivity;
 import com.example.zohar.androiddeepbok.activities.fragmentlifecycle.FragmentLifecycleActivity;
 import com.example.zohar.androiddeepbok.activities.activitylifecycle.LifeCycleAActivity;
+import com.example.zohar.androiddeepbok.activities.handler.HandlerTestActivity;
 import com.example.zohar.androiddeepbok.activities.motionevent.TestMotionEventActivity;
 import com.example.zohar.androiddeepbok.adapter.MainRvAdapter;
 import com.example.zohar.androiddeepbok.menu.MainMenu;
@@ -64,6 +65,9 @@ public class MainActivity extends BaseActivity<MainContract.IMainPresenter> impl
                         break;
                     case CUSTOM_VIEW:
                         StartActivityUtils.startActivity(MainActivity.this, CustomViewActivity.class);
+                        break;
+                    case HANDLER:
+                        StartActivityUtils.startActivity(MainActivity.this, HandlerTestActivity.class);
                         break;
                 }
             }

@@ -7,7 +7,8 @@ public enum MainMenu {
     ACTIVITY_LIFECYCLE(0, "Activity生命周期"),
     FRAGMENT_LIFECYCLE(1, "Fragment生命周期"),
     MOTION_EVENT(2, "Android事件分发机制"),
-    CUSTOM_VIEW(3, "自定义View");
+    CUSTOM_VIEW(3, "自定义View"),
+    HANDLER(4, "Handler机制");
 
     public int index;
     public String desc;

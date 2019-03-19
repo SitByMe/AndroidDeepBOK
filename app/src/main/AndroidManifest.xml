@@ -21,6 +21,7 @@
         <activity android:name=".activities.fragmentlifecycle.FragmentLifecycleActivity" />
         <activity android:name=".activities.motionevent.TestMotionEventActivity" />
         <activity android:name=".activities.customview.CustomViewActivity" />
+        <activity android:name=".activities.handler.HandlerTestActivity" />
     </application>
 
 </manifest>
